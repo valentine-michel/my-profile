@@ -1,0 +1,109 @@
+ /*Colors and fonts*/
+
+body {
+	background-color: #662549;
+	color: #451952; 
+	font-family: 'playfair display', serif;
+}
+
+h1 {
+	color: #662549;
+	font-family: helvetica;
+	font-weight: 600;
+	letter-spacing: 7px;
+	font-size: 24px;
+}
+
+h2{
+	color: #AE445A;
+	font-family: Helvetica;
+	font-weight: 500;
+	letter-spacing: 5px;
+
+}
+
+a{
+	text-decoration: none;
+	color: #F39F5A;
+	font-size: 15px;
+}
+
+a:hover {
+	color: #AE445A;
+}
+
+
+/*Custom design with class (99% of your design) */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border:2px solid #451952;
+	margin: 100px;
+	text-align: center;
+	border-radius: 4px;
+	
+}
+
+
+#ValentineMichel {
+	border-radius: 50%;
+}
+.shadowed {
+	box-shadow: 1px 5px 3px black;
+	border-radius: 50%;
+	width: 25%;
+}
+
+.btn-blue {
+	background-color: #AE445A;
+	color: white;
+	padding:10px 15px;
+	border-radius: 5%;
+}
+
+.btn-blue: hover {
+	background-color: #F39F5A;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 30px;
+}
+ 
+
+/* design adjusments using id (1% design remaining) */
+
+#introduction p {
+	margin-bottom: 40px;
+}
